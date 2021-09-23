@@ -16,6 +16,15 @@ body {
   background: #cfcfcf;
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
 h1,
 h2,
 h3,
@@ -71,6 +80,9 @@ p {
 .card-1 {
   grid-area: one;
   background: #7541c8;
+  background-image: url(../images/bg-pattern-quotation.svg);
+  background-position: top right 20%;
+  background-repeat: no-repeat;
   color: white;
 }
 
